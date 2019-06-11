@@ -13,8 +13,7 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   }
   else{
-    let first = line[0]
-    line.shift()
+    let first = line.shift()
     return `Currently serving ${first}.`
   }
 }
