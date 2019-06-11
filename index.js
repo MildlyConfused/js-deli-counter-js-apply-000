@@ -28,7 +28,6 @@ function currentLine(line){
       }
     }
   }
-  console.log(start)
   return start
 }
 
