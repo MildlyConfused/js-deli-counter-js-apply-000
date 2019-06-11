@@ -1,3 +1,6 @@
+let counter = 0
+
+
 function takeANumber(line, newCustomer){
   line.push(newCustomer)
   let s = `Welcome, ${newCustomer}. You are number ${line.length} in line.`
