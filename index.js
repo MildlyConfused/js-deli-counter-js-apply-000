@@ -26,7 +26,7 @@ function currentLine(line){
   }
   else{
     for(let i = 0; i < line.length; i++){
-      start = start + `${i + 1}. ${line[i]}`
+      start = start + `${i + 1}. Customer ${line[i]}`
       if(i < line.length - 1){
         start = start + ', '
       }
