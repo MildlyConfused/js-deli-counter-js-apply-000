@@ -4,13 +4,13 @@ function takeANumber(line, newCustomer){
   return s
 }
 
-function nowServing(katzDeliLine){
-  if(katzDeliLine.length === 0){
+function nowServing(line){
+  if(line.length === 0){
     return "There is nobody waiting to be served!"
   }
   else{
-    let first = katzDeliLine[0]
-    katzDeliLine.shift()
+    let first = line[0]
+    line.shift()
     return `Currently serving ${first}.`
   }
 }
@@ -28,6 +28,7 @@ function currentLine(line){
       }
     }
   }
+  console.log(start)
   return start
 }
 
