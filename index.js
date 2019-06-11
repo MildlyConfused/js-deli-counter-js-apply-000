@@ -1,9 +1,10 @@
-let counter = 0
+let counter = 1
 
 
 function takeANumber(line, newCustomer){
   line.push(newCustomer)
-  let s = `Welcome, ${newCustomer}. You are number ${line.length} in line.`
+  let s = `Welcome, your number is ${counter}. You are number ${line.length} in line.`
+  counter++
   return s
 }
 
